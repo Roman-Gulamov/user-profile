@@ -194,13 +194,15 @@ export const ConnectFollow = styled.div`
         & button {
             border: 1px solid #f1e1f1;
 
-            & svg {
-                display: none;
+            @media screen and (min-width: 768px) {
+                & svg {
+                    display: none;
+                }
             }
         }
 
         & svg path {
-            stroke: #5458F7;
+            stroke: ${props => props.subsStatus ? "#5458F7" :  "white"};
         }
     `}
 `
