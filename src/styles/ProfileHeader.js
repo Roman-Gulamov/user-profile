@@ -6,7 +6,7 @@ export const Header = styled.header`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5vh 0 7vh;
+    padding: 5vh 0 3vh;
 
     @media screen and (max-width: 768px) {
         justify-content: space-evenly;
@@ -14,7 +14,6 @@ export const Header = styled.header`
 
     @media screen and (max-width: 500px) {
         flex-wrap: wrap;
-        padding: 5vh 0 4vh;
     }
 `
 
