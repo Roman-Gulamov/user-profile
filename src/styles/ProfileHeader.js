@@ -168,7 +168,7 @@ export const ConnectFollow = styled.div`
     ${props => props.subsStatus && css`
         & button {
             background-color: rgba(255, 255, 255, 0.1);
-            color: black;
+            color: ${props => props.whiteTheme ? "black" :  "white"};
 
             &:hover {
                 background-color: rgba(255, 255, 255, 0.2);
