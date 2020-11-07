@@ -193,12 +193,6 @@ export const ConnectFollow = styled.div`
     ${props => props.whiteTheme && css`
         & button {
             border: 1px solid #f1e1f1;
-
-            @media screen and (min-width: 768px) {
-                & svg {
-                    display: none;
-                }
-            }
         }
 
         & svg path {
